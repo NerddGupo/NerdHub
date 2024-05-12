@@ -78,3 +78,10 @@ local Button = MainTab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Qrto1/working/main/pc"))()
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Mars(ForBloxFruits)",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.lua'))()
+   end,
+})
